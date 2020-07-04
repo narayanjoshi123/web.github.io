@@ -1,0 +1,13 @@
+body{
+    background: linear-gradient(to right,pink,rgb(40, 255, 255) 100% ) ;
+}
+p{
+    letter-spacing: 0.111em;
+    font-style: normal;
+    font-family: cursive;
+}
+h4{
+    margin-left: 50px;
+    font-size: 1.2em;
+    
+}

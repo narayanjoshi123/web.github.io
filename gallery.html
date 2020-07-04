@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Gallery
+        </title>
+        <style type="text/css">
+    
+            *{
+                margin:0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                display: flex;
+                height: 100vh;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                background-color:black;  
+            }
+            .box{
+                position: relative;
+                width: 200px;
+                height: 200px;
+                display: inline-block;
+                border-radius: 8px;
+                overflow: hidden;
+                margin: 15px;
+                border: 2px solid rgb(229, 255, 0);
+                cursor: pointer;
+                border: dotted white;
+             }
+             img{
+                width: 100%;
+                transition: all linear 0.5s;
+                }
+             img.hover-img{
+                 position: absolute;
+                 top: 0;
+                 left: 0;
+                 opacity: 0;
+        
+             }
+             .box:hover-img{
+                 position: absolute;
+                 top: 0;
+                 left: 0;
+                 opacity: 0;
+             }
+             .box:hover img{
+                 opacity: 0;
+             }
+            .box:hover img.hover-img{
+                opacity:1;
+            }
+            </style>    
+    </head>
+    
+        <h1>Here's some of mah clicks ;)</h1>
+       
+        <body>
+         <div class="box">
+                <img src="n1.jpg">
+                <img  class="hover-img"  src="n2.jpg">
+            </div>    
+            <div class="box">
+                <img src="n2.jpg">
+                <img  class="hover-img"  src="n3.jpg">
+            </div>    
+            <div class="box">
+                <img src="n3.jpg">
+                <img  class="hover-img"  src="n4.jpg">
+            </div>    
+            <div class="box">
+                <img src="n4.jpg">
+                <img  class="hover-img"  src="n5.jpg">
+            </div>    <div class="box">
+                <img src="n5.jpg">
+                <img  class="hover-img"  src="n6.jpg">
+            </div>   
+          
+            <div class="box">
+                <img src="n6.jpg">
+                <img  class="hover-img"  src="n7.jpg">
+            </div>    
+            <div class="box">
+                <img src="n7.jpg">
+                <img  class="hover-img"  src="n8.jpg">
+            </div>    
+            <div class="box">
+                <img src="n8.jpg">
+                <img  class="hover-img"  src="n9.jpg">
+            </div>    
+            <div class="box">
+                <img src="n9.jpg">
+                <img  class="hover-img"  src="n1.jpg">
+            </div>    
+            <a href="index.html"><button style="background-color: darkblue;
+                border: normal;
+                color: white;
+                padding: 10px 30px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 2px 2px;
+                border-radius: 30%;
+                cursor: pointer;">Back </button></a>
+                <hr>
+                <hr>
+                <hr>
+    </body>
+</html>
